@@ -1,0 +1,173 @@
+/*criando variáveis*/
+:root{
+    --cinza: #989a91;
+    --preto-fosco: #696969;
+    --cinza-claro: #aaa;
+    --texto: Arial, Helvetica, sans-serif;
+    --texto_cor: #fcfcfc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--cinza);
+}
+
+.img-logo{
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+header .container{
+    background: var(--preto-fosco);
+    font-family: var(--texto);
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+/*nome barbearia*/
+.hrcorte{
+    margin-top: 5px;
+    font-family: var(--texto);
+}
+
+/*links do menu*/
+header nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--texto_cor);
+}
+
+/*
+nav a:hover{
+    color: #fff;
+}*/
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-family: var(--texto);
+    color: var(--texto_cor);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.barb-1  {
+    margin-left: 10px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+a{
+    color: var(--preto-fosco);
+    text-decoration: none;
+}
+
+#texto-inicio{
+    margin-left: 10px;
+    text-align: justify;
+    font-family: var(--texto);
+}
+
+#servicos{
+    font-family: var(--texto);
+    text-align: center;
+    margin-top: -150px;  
+    padding: 150px;
+}
+
+#sobre{
+    font-family: var(--texto);
+    text-align: center;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.texto-sobre{
+    padding: 15px;
+    margin-top:20px;
+    text-align: center;    
+}
+
+
+.servicos_texto{
+    text-align: center;
+    font-family: var(--texto);
+    margin-top: 20px;
+    margin-bottom: -90px;
+}
+
+
+.img_Servicos{
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+}
+
+.scrollbutton{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: inline;
+    opacity: 0.6;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--preto-fosco);
+    height: 20px;
+    margin-top: 90px;
+}
+
+.projeto-ficticio{
+    font-family: var(--texto);
+    float: left;
+    font-size: 14px;
+}
+
+.copy{
+    font-family: var(--texto);
+    font-weight: bold;
+}
+
+.whatsapp{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    float: right;
+    margin-right: 70px;
+    margin-top: -65px;
+    background: #34af23;
+    color: #fff;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+}
+
+.botao_link{
+    color: inherit;
+}
