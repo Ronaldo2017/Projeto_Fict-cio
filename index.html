@@ -29,63 +29,76 @@
 
     </header>
 
-    <div class="container">
-        <img class="barb-1" src="img/img5.jpeg" alt="barbearia">
-        <p id="texto-inicio">
-            A preocupação de cuidados com a estética que era mais comum do público feminino, adentra ao mundo masculino
-            novamente. <br> Depois de uma longa pausa no anonimato, as barbearias voltam a popularidade! <br>
+    <main>
+        <div class="container">
+            <img class="barb-1" src="img/img5.jpeg" alt="barbearia">
+            <p id="texto-inicio">
+                A preocupação de cuidados com a estética que era mais comum do público masculino, adentra ao mundo
+                masculino
+                novamente. <br> Depois de uma longa pausa no anonimato, as barbearias voltam a popularidade! <br>
 
-            Hoje barbeiro voltou a ser um profissional respeitado e influente.
-            <br>
-            Devido a preocupação atual com estética visual, <br> o homem moderno cuida muito mais da sua aparência,
-            alimentando a demanda da profissão e de serviços ao público masculino. <a
-                href="https://seducintec.com.br/noticias/barbearias-o-inicio-e-sua-historia/"><br><em>Fonte</em></a>
-        </p>
-    </div>
-
-    <div id="servicos">
-        <h1 class="titulo-servicos">Serviços</h1>
-        <p class="servicos_texto">Nossos serviços contam com os melhores profissionais, sempre atualizados com os
-            melhores designs
-            para deixar você
-            com o melhor estilo de corte.
-        </p>
-    </div>
-
-    <div class="img_Servicos">
-        <div><img src="img/img3.jpeg" alt="">
-            <p>Cortes para sua barba <br> com o designi que desejar</p>
+                Hoje barbeiro voltou a ser um profissional respeitado e influente.
+                <br>
+                Devido a preocupação atual com estética visual, <br> o homem moderno cuida muito mais da sua aparência,
+                alimentando a demanda da profissão e de serviços ao público masculino. <a
+                    href="https://seducintec.com.br/noticias/barbearias-o-inicio-e-sua-historia/"><br><em>Fonte</em></a>
+            </p>
         </div>
-        <div><img src="img/img4.jpeg" alt="">
-            <p>Cortes diferenciados <br> com a exelência de profissionais</p>
-        </div>
-        <div><img src="img/Img2.jpeg" alt="">
-            <p>A satisfação ao sair com um visual renovado. <br> </p>
-        </div>
-        <div><img src="img/img6.jpeg" alt="">
-            <p>Confira nossos pacotes <br> corte cabelo e barba.<br> Sempre com promoções <br>
-                que satisfaçam o cliente</p>
-        </div>
-    </div>
 
+        <div id="servicos">
+            <h1 class="titulo-servicos">Serviços</h1>
+            <p class="servicos_texto">Nossos serviços contam com os melhores profissionais, sempre atualizados com os
+                melhores designs
+                para deixar você
+                com o melhor estilo de corte.
+            </p>
+        </div>
 
-    <div id="sobre">
-        <h1 class="sobre_titulo">Sobre</h1>
-        <p class="texto-sobre">
-            Temos um propósito de trazer sempre a autoestima do homem, mostrando novas opções para seu estilo. <br>
-            Prezamos pelo excelente atendimento, onde o cliente se sente relaxado com um ambiente descontraído e
-            amigável. <br>
+        <picture>
+            <div class="img_Servicos">
 
-            Nossa história começa em 2016, com a alta demanda e exigência do público masculino, nasce a Hora de Cortar -
-            Barbearia. <br> Onde trabalhamos com os melhores profissionais e os melhores produtos do mercado, <br> para
-            que o
-            cliente
-            se sinta mais confortável e mais bonito.
-        </p>
-    </div>
+                <source media="(max-width: 610px" srcset="img/img3.jpeg">
+                <div><img src="img/img3.jpeg" alt="">
+                    <p class="servico_txt">Cortes para sua barba <br> com o designi que desejar</p>
+                </div>
+                <source media="(max-width: 1000px" srcset="img/img4.jpeg">
+                <div><img src="img/img4.jpeg" alt="">
+                    <p class="servico_txt">Cortes diferenciados <br> com a exelência de profissionais</p>
+                </div>
+                <source media="(max-width: 610px" srcset="img/img2.jpeg">
+                <div><img src="img/Img2.jpeg" alt="">
+                    <p class="servico_txt">A satisfação ao sair com um visual renovado. <br> </p>
+                </div>
+                <source media="(max-width: 610px" srcset="img/img6.jpeg">
+                <div><img src="img/img6.jpeg" alt="">
+                    <p class="servico_txt">Confira nossos pacotes <br> corte cabelo e barba.<br> Sempre com promoções
+                        <br>
+                        que satisfaçam o cliente
+                    </p>
+                </div>
+            </div>
+
+        </picture>
+
+        <div id="sobre">
+            <h1 class="sobre_titulo">Sobre</h1>
+            <p class="texto-sobre">
+                Temos um propósito de trazer sempre a autoestima do homem, mostrando novas opções para seu estilo. <br>
+                Prezamos pelo excelente atendimento, onde o cliente se sente relaxado com um ambiente descontraído e
+                amigável. <br>
+
+                Nossa história começa em 2016, com a alta demanda e exigência do público masculino, nasce a Hora de
+                Cortar -
+                Barbearia. <br> Onde trabalhamos com os melhores profissionais e os melhores produtos do mercado, <br>
+                para
+                que o
+                cliente
+                se sinta mais confortável e mais bonito.
+            </p>
+        </div>
+    </main>
 
     <div class="scrollbutton" onclick="subirTela()"></div>
-
 
     <footer>
         <div class="projeto-ficticio">
@@ -93,11 +106,11 @@
         </div>
         <p class="copy">&copy; RC - 2021 </p>
         <button class="whatsapp">
-            <a class="botao_link" href=" https://api.whatsapp.com/send?phone=5541999999999&text=Hello%2C%20World" target="_blank">
+            <a class="botao_link" href=" https://api.whatsapp.com/send?phone=5541999999999&text=Hello%2C%20World"
+                target="_blank">
                 <i class="fa fa-whatsapp"></i></a>
         </button>
     </footer>
-
 
     <script src="script.js"></script>
 </body>

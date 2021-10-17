@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 /*criando variáveis*/
 :root{
-    --cinza: #989a91;
+    --cinza: #989a9175;
     --preto-fosco: #696969;
     --cinza-claro: #aaa;
-    --texto: Arial, Helvetica, sans-serif;
+    --texto: Arial, Verdana, Helvetica, sans-serif;
     --texto_cor: #fcfcfc;
 }
 
@@ -47,10 +49,17 @@ header nav a{
     color: var(--texto_cor);
 }
 
-/*
-nav a:hover{
-    color: #fff;
-}*/
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    margin-bottom: -2px;
+    margin-top: 120px;
+}
 
 header .container{
     display: flex;
@@ -69,9 +78,10 @@ p{
 }
 
 .barb-1  {
-    margin-left: 10px;
-    margin-top: 120px;
+    margin-left: 5px;
+    /* margin-top: 120px; */
     margin-bottom: 150px;
+    height: 480px;
 }
 
 a{
@@ -81,8 +91,10 @@ a{
 
 #texto-inicio{
     margin-left: 10px;
+    margin-top: -150px;
     text-align: justify;
     font-family: var(--texto);
+    color: black;
 }
 
 #servicos{
@@ -90,6 +102,7 @@ a{
     text-align: center;
     margin-top: -150px;  
     padding: 150px;
+    color: black;
 }
 
 #sobre{
@@ -97,12 +110,14 @@ a{
     text-align: center;
     margin-top: 200px;
     padding: 50px;
+    color: black;
 }
 
 .texto-sobre{
     padding: 15px;
     margin-top:20px;
     text-align: center;    
+    color: black;
 }
 
 
@@ -110,36 +125,43 @@ a{
     text-align: center;
     font-family: var(--texto);
     margin-top: 20px;
-    margin-bottom: -90px;
+    margin-bottom: -90px;    
+    color: black;
 }
 
 
 .img_Servicos{
     display: flex;
     justify-content: space-around;
-    height: 180px;
+    height: 180px;    
+}
+
+.servico_txt{
+    color: black;
 }
 
 .scrollbutton{
     width: 40px;
     height: 40px;
     border-radius: 15px;
-    background-color: #d3d3d3;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 35px;
     z-index: 999;
     cursor: pointer;
     display: inline;
     opacity: 0.6;
+    font-weight: bold;
 }
 
 footer{
     text-align: center;
     background-color: var(--preto-fosco);
-    height: 20px;
+    height: 30px;
     margin-top: 90px;
+    padding: 5px;
 }
+
 
 .projeto-ficticio{
     font-family: var(--texto);
@@ -161,13 +183,14 @@ footer{
     cursor: pointer;
     float: right;
     margin-right: 70px;
-    margin-top: -65px;
+    margin-top: -80px;
     background: #34af23;
     color: #fff;
     font-size: 2.3rem;
     border: 1px solid #f1f1f1;
 }
 
+/* botão - whats */
 .botao_link{
     color: inherit;
 }

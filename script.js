@@ -10,7 +10,9 @@ function botaoAparece(){
         document.querySelector('.scrollbutton').style.display = 'none'
     }else{
         document.querySelector('.scrollbutton').style.display = 'block'
+        document.querySelector('.scrollbutton').innerHTML = 'TOPO'
     }
 }
 
 window.addEventListener('scroll', botaoAparece)
+
